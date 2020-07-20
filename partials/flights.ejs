@@ -1,0 +1,5 @@
+<ol>
+  <% flightSeating.forEach(flightInfo) => { %>
+  <li><%- include ('./partials/flightInfo', {flightInfo}%></li>
+  <%});%>
+</ol>
